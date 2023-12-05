@@ -5,9 +5,17 @@ import FavRequest from "./componets/FavRequest";
 import Header from "./componets/Header";
 import Navbar from "./componets/Navbar";
 import Request from "./componets/Request";
+import axios from "axios";
 
 
 function App() {
+  
+  /*axios.get("http://localhost:3030/api/ticket/get/all").then( r => {
+    for (let data of r.data) {
+        console.log(data)
+    }
+  })
+  */
   var requestData =[
     {
       number: 1,
@@ -26,6 +34,8 @@ function App() {
     }
   ];
 
+  
+        
   return (
     <div className="desktop">
       <div className="container">
