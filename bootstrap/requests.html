@@ -11,16 +11,38 @@
     <div class="container-fluid vh-100">
         <div class="row h-100">
             <div class="col-2 d-flex flex-column align-items-center px-3 position-fixed vh-100" id="side_nav">
-                <img class="img-fluid mt-2" src="img/ic_logo-white 1.svg" id="logo">
+                <img class="img-fluid mt-2" src="img/ic_logo-white 1.svg" id="logo" alt="Жизнь март">
                 <div class="nav-elements w-100 d-flex align-items-center flex-column">
-                    <a href="#" class="nav-item"><img src="img/Message.svg" id="message-img">Чат</a>
+                    <a href="#" class="nav-item justify-content-evenly"><img src="img/Message.svg" id="message-img">Чат</a>
                     <a href="#" class="nav-item"><img src="img/Test.svg" id="test-img">Список заявок</a>
-                    <a href="#" class="nav-item"><img src="img/archive.png" id="archive-img">Архив заявок</a>
+                    <a href="#" class="nav-item"><img src="img/archive.svg" id="archive-img">Архив заявок</a>
                     <a href="#" class="nav-item"><img src="img/Graph.svg" id="graph-img">Аналитика</a>
                 </div>  
                 
             </div>
-            <div class="col-10"></div>
+            <div class="col-2"></div>
+            <div class="col-10 d-flex align-items-center main-content flex-column">
+                <div class="col-10 d-flex justify-content-between content-header">
+                    <h2 id="tag">Заявки</h2>
+                    <a href="#" class="button">
+                        <div class="btn-content d-flex justify-content-center">
+                            <img class="add-img" src="img/add.png">
+                            Добавить заявку
+                        </div>
+                    </a>
+                </div>
+                <div class="requests">
+                    <div class="request d-flex">
+                        <div class="request-num">Заявка № 3</div>
+                        <div class="status">В работе</div>
+                        <div class="date">17.09.2023 16:00</div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+                
         </div>
     </div>
 </body>
