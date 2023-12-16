@@ -19,37 +19,23 @@ body{
 
 .nav-elements{
     margin-top: 4.6rem;
-    
-    
 }
-.nav-item{
+
+.nav-item {
     font-size: 1.1rem;
     color: #fff;
     text-decoration: none;
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 1.1rem 1.1rem 1.1rem 3.6rem;
+    padding: 1.1rem 1.8rem;
     background: #004D3A;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
     gap: 1rem;
 }
-#message-img{
-    width: 1.1rem;
-    height: auto;
-    float: left;
-}
-#test-img{
-    width: 1rem;
-    height: auto;
-}
-#archive-img{
-    width: 1.3rem;
-    height: auto;
-}
-#graph-img{
-    width: 1.1rem;
+
+.nav-item img {
+    width: 1.2rem;
     height: auto;
 }
 
@@ -70,7 +56,7 @@ body{
 .btn-content{
     margin-right: 2rem;
 }
-.content-header {
+.header-content {
     padding: 5.31rem 0 3.58rem 0;
     position: sticky;
     background: #F2EEE6;
@@ -91,6 +77,8 @@ body{
     margin-bottom: 1.62rem;
     flex-direction: column;
     justify-content: left;
+    width: 100%;
+    display: flex;
 }
 .request-num{
     color: #000;
@@ -118,8 +106,18 @@ body{
     line-height: 150%; /* 1.3125rem */
     letter-spacing: -0.01663rem;
 }
-.container-content{
+
+.position-fixed-fix {
+    height: fit-content;
+}
+
+.header-container {
     background: #F2EEE6;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
 }
 .detail{
     border: none;
