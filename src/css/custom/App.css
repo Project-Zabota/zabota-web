@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    font-size: 16px;
+}
+
+.main-content{
+    background: #F2EEE6;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header-container {
+    background: #F2EEE6;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+}
+
+.requests{
+  margin-top: 0.54rem;
+}
+
+.position-fixed-fix {
+  height: fit-content;
+}

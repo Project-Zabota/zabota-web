@@ -1,21 +1,20 @@
 import React from 'react';
-import polygon_1 from './../img/polygon-1.svg';
-import vector from './../img/vector.svg';
+import detail from './../img/Vector.svg';
+import "./../css/custom/Request.css";
+import "./../css/bootstrap/bootstrap.css";
+
 
 function Request(props) {
     return (
         <div className="request">
-            <div className="text-wrapper-14">Заявка № {props.number}</div>
-            <div className="text-wrapper-12">{props.status}</div>
-            <div className="text-wrapper-13">{props.date.toLocaleString("ru-Ru")}</div>
-            <img className="vector-8" src={vector} />
-            <div className="overlap-6">
-                <div className="rectangle-2"></div>
-                <div className="text"></div>
-                <div className="rectangle-3"></div>
-                <div className="text-wrapper-15">Высокий приоритет</div>
+            <div className="request-bar d-flex justify-content-between">
+                <div className="d-flex flex-row">
+                    <div className="request-num">Заявка № {props.number}</div>
+                    <div className="status">{props.status}</div>
+                </div>
+                <button className="detail"><img src={detail} height="auto"/></button>
             </div>
-            <img className="polygon" src={polygon_1} />
+            <div className="date">{props.date.toLocaleString("ru-Ru")}</div>
         </div>
     )
 }

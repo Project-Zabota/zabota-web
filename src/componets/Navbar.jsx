@@ -1,53 +1,34 @@
 import React from 'react';
-import test from './../img/test.png';
-import vector_3 from './../img/vector-3.svg';
-import vector_1_1 from './../img/vector-1-1.svg';
-import vector_10 from './../img/vector-10.svg';
-import vector_9 from './../img/vector-9.svg';
-import archive_1 from './../img/archive-1.png';
-import graph from './../img/graph.png';
-import message from './../img/message.png';
-
-
+import "./../css/custom/Navbar.css";
+import logo from './../img/ic_logo-white 1.svg';
+import message from './../img/Message.svg';
+import test from './../img/Test.svg';
+import archive from './../img/archive.svg';
+import graph from './../img/Graph.svg';
 
 function Navbar() {
     return (
-        <nav className="navbar">
-          <div className="navbar-group">
-            <button className="text-wrapper">Бэклог заявок</button>
-            <div className="overlap-2">
-              <div className="rectangle"></div>
-              <div className="group">
-                <button className="text-wrapper-2">Список заявок</button>
-                <img className="test" src={test} />
-                <img className="vector" src={vector_3} />
-              </div>
-              <img className="img" src={vector_1_1} />
-              <img className="vector-2" src={vector_10} />
-              <img className="vector-3" src={vector_10} />
-            </div>
-            <button className="text-wrapper-3">Заявки в работе</button>
-            <div className="overlap-group-wrapper">
-              <div className="div-wrapper"><div className="text-wrapper-4">3</div></div>
-            </div>
-            <div className="overlap-wrapper">
-              <div className="div-wrapper"><div className="text-wrapper-4">6</div></div>
-            </div>
-          </div>
-          <img className="vector-4" src={vector_9} />
-          <div className="group-2">
-            <button className="text-wrapper-5">Чат</button>
-            <img className="message" src={message} />
-          </div>
-          <div className="group-3">
-            <button className="text-wrapper-6">Архив заявок</button>
-            <img className="archive" src={archive_1} />
-          </div>
-          <div className="group-4">
-            <button className="text-wrapper-7">Аналитика</button>
-            <img className="graph" src={graph} />
-          </div>
-        </nav>
+        <div className="col-2 d-flex flex-column align-items-center px-3 position-fixed vh-100" id="side_nav">
+                <img className="img-fluid mt-2" src={logo} id="logo" alt="Жизнь март"/>
+                <div className="nav-elements w-100 d-flex flex-column">
+                    <a href="#" className="nav-item">
+                        <img src={message}/>
+                        Чат
+                    </a>
+                    <a href="#" className="nav-item active">
+                        <img src={test}/>
+                        Список заявок
+                    </a>
+                    <a href="#" className="nav-item">
+                        <img src={archive}/>
+                        Архив заявок
+                    </a>
+                    <a href="#" className="nav-item">
+                        <img src={graph}/>
+                        Аналитика
+                    </a>
+                </div>  
+        </div>
     )
 }
 

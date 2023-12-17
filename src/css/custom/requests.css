@@ -28,7 +28,6 @@ body{
     width: 100%;
     display: flex;
     padding: 1.1rem 1.8rem;
-    background: #004D3A;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
     gap: 1rem;
@@ -53,6 +52,10 @@ body{
     line-height: 1.8rem; /* 27px */
     text-decoration: none;
 }
+.active{
+    background: #004D3A;
+}
+
 .btn-content{
     margin-right: 2rem;
 }
