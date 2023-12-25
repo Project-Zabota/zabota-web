@@ -1,23 +1,23 @@
 /* eslint-disable jsx-a11y/alt-text */
-/*import "./css/custom/App.css";
+import "./css/custom/App.css";
 import "./css/bootstrap/bootstrap.css";
 import Notification from "./componets/Notification";
 import Header from "./componets/Header";
 import Request from "./componets/Request";
 import Navbar from "./componets/Navbar";
-/*import axios from "axios";
-*/
+import axios from "axios";
 
 
-/*function App() {
-  
+
+function Requests() {
+
   /*axios.get("http://localhost:3030/api/ticket/get/all").then( r => {
     for (let data of r.data) {
         console.log(data)
     }
-  })
-  */
-  /*var requestData =[
+  })*/
+
+  let requestData =[
     {
       number: 1,
       status: "В статус",
@@ -35,8 +35,8 @@ import Navbar from "./componets/Navbar";
     }
   ];
 
-  
-        
+
+
   return (
     <div className="container-fluid vh-100 main-body">
         <div className="row h-100">
@@ -45,37 +45,37 @@ import Navbar from "./componets/Navbar";
             <div className="col-10 d-flex align-items-center main-content flex-column">
               <Header />
               <div className="col-10 requests d-flex flex-column">
-                <Request 
+                <Request
                   number={requestData[0].number}
                   status={requestData[0].status}
                   date={requestData[0].date}
                 />
-                <Request 
+                <Request
                   number={requestData[1].number}
                   status={requestData[1].status}
                   date={requestData[1].date}
                 />
-                <Request 
+                <Request
                   number={requestData[2].number}
                   status={requestData[2].status}
                   date={requestData[2].date}
                 />
-                <Request 
+                <Request
                   number={requestData[2].number}
                   status={requestData[2].status}
                   date={requestData[2].date}
                 />
-                <Request 
+                <Request
                   number={requestData[2].number}
                   status={requestData[2].status}
                   date={requestData[2].date}
                 />
-                <Request 
+                <Request
                   number={requestData[2].number}
                   status={requestData[2].status}
                   date={requestData[2].date}
                 />
-                <Request 
+                <Request
                   number={requestData[2].number}
                   status={requestData[2].status}
                   date={requestData[2].date}
@@ -88,4 +88,4 @@ import Navbar from "./componets/Navbar";
   );
 }
 
-export default App;*/
+export default Requests;

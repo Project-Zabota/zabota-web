@@ -1,5 +1,5 @@
 import React from 'react';
-import detail from './../img/Vector.svg';
+import detail from './../img/vector.svg';
 import "./../css/custom/Request.css";
 import "./../css/bootstrap/bootstrap.css";
 
