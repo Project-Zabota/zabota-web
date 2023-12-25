@@ -4,17 +4,8 @@
 }
 
 .main-content{
-    background: #F2EEE6;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.header-container {
-    background: #F2EEE6;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 0;
+  background: #F2EEE6;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .requests{

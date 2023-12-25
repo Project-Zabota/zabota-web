@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    font-size: 16px;
+}
+
+.main-content{
+  background: #F2EEE6;
+  font-family: 'PT Sans', sans-serif;
+}
+.chat-container{
+    border-radius: 0.625rem;
+    background: #FFF;
+    margin-top: 2.44rem;
+    justify-content: center;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+.chat-wrapper{
+    margin-top: 1.8rem;
+}
+.chat-info{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.875rem */
+    letter-spacing: -0.02375rem;
+    padding: 1.8rem 13rem;
+    border-radius: 0.625rem;
+    background: #004D3A;
+}
+.chat-value{
+    padding: 1.44rem 6rem 1.04rem 6rem;
+    margin-top: 1.62rem;
+    border-top: 0.06rem solid #999;
+    border-bottom: 0.06rem solid #999;
+}
+.request-num{
+    color: #000;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.875rem */
+    letter-spacing: -0.02375rem;
+}
+.telephone-num{
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: -0.019rem;
+}
+.problem{
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: -0.019rem;
+}
+.problem-descript{
+    color: #888;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: -0.01663rem;
+}
+.chat-content{
+    overflow-y: scroll;
+    max-height: 22rem;
+}
+
+

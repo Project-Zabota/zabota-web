@@ -1,15 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
-import "./css/custom/App.css";
+/*import "./css/custom/App.css";
 import "./css/bootstrap/bootstrap.css";
 import Notification from "./componets/Notification";
 import Header from "./componets/Header";
-import Navbar from "./componets/Navbar";
 import Request from "./componets/Request";
+import Navbar from "./componets/Navbar";
 /*import axios from "axios";
 */
 
 
-function App() {
+/*function App() {
   
   /*axios.get("http://localhost:3030/api/ticket/get/all").then( r => {
     for (let data of r.data) {
@@ -17,7 +17,7 @@ function App() {
     }
   })
   */
-  var requestData =[
+  /*var requestData =[
     {
       number: 1,
       status: "В статус",
@@ -60,6 +60,26 @@ function App() {
                   status={requestData[2].status}
                   date={requestData[2].date}
                 />
+                <Request 
+                  number={requestData[2].number}
+                  status={requestData[2].status}
+                  date={requestData[2].date}
+                />
+                <Request 
+                  number={requestData[2].number}
+                  status={requestData[2].status}
+                  date={requestData[2].date}
+                />
+                <Request 
+                  number={requestData[2].number}
+                  status={requestData[2].status}
+                  date={requestData[2].date}
+                />
+                <Request 
+                  number={requestData[2].number}
+                  status={requestData[2].status}
+                  date={requestData[2].date}
+                />
               </div>
               <Notification />
             </div>
@@ -68,4 +88,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/

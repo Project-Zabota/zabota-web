@@ -31,3 +31,11 @@
     height: auto;
     margin-right: 2rem;
 }
+.header-container {
+    background: #F2EEE6;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+}
