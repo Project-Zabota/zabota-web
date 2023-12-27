@@ -67,6 +67,13 @@ function Chat() {
                         
                     </div>
                 </div>
+                <div className="fast-nav col-11 d-flex justify-content-between">
+                    <div className="left-info d-flex">
+                        <h2 className="request-num-fast">Заявка № 1</h2>
+                        <h4 className="request-status-fast">В работе</h4>
+                    </div>
+                    <button className="close-fast-request">Закрыть</button>
+                </div>
             </div>
             <div className="col-3 d-flex flex-column main-content h-100">
                 <div className="action-container d-flex">
@@ -85,7 +92,9 @@ function Chat() {
                         </div>
                     </div>
                 </div>
+                <button className="redirection-btn col-9">Перенаправить в другой отдел</button>
             </div>
+            
             <Notification />
             
                 
