@@ -150,7 +150,7 @@
     margin-top: 1.44rem;
     border: none;
     background: #FFF;
-    background-image: url("./../img/ic_logo-white 1.svg");
+    background-image: url("../../img/ic_logo-white 1.svg");
 }
 .send-btn:hover{
     filter: brightness(0.9);

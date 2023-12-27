@@ -1,7 +1,7 @@
 import "./css/custom/Chat.css";
 import "./css/bootstrap/bootstrap.css";
 import Navbar from "./componets/Navbar";
-/*import telegram_logo from '/src/img/telegram.svg';*/
+import telegram_logo from './img/telegram.svg';
 
 
 function Chat() {
@@ -29,7 +29,7 @@ function Chat() {
                             <div className="discussion">
                                 <div className="message col-6">
                                     <div className="user-info d-flex justify-content-between">
-                                        <img className="from-logo" src="#" alt="лого"/>
+                                        <img className="from-logo" src={telegram_logo} alt="лого"/>
                                         <h3 className="username">Черчиль</h3>
                                         <h4 className="message-time">19:37</h4>
                                     </div>
@@ -37,7 +37,7 @@ function Chat() {
                                 </div>
                                 <div className="answer col-6">
                                     <div className="user-info d-flex justify-content-between">
-                                        <img className="from-logo" src="#" alt="лого"/>
+                                        <img className="from-logo" src={telegram_logo} alt="лого"/>
                                         <h3 className="username">Черчиль</h3>
                                         <h4 className="message-time">19:37</h4>
                                     </div>
@@ -45,7 +45,7 @@ function Chat() {
                                 </div>
                                 <div className="message col-6">
                                     <div className="user-info d-flex justify-content-between">
-                                        <img className="from-logo" src="#" alt="лого"/>
+                                        <img className="from-logo" src={telegram_logo} alt="лого"/>
                                         <h3 className="username">Черчиль</h3>
                                         <h4 className="message-time">19:37</h4>
                                     </div>
