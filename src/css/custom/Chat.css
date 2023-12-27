@@ -15,7 +15,7 @@
     margin-right: 0.75rem;
     margin-left: 0.75rem;
 }
-.chat-wrapper{
+.chat-header{
     margin-top: 1.8rem;
 }
 .chat-info{
@@ -74,7 +74,84 @@
 }
 .chat-content{
     overflow-y: scroll;
-    max-height: 22rem;
+    height: 40vh;
 }
 
+.discussion{
+    margin-top: 0.15rem;
+}
 
+.message{
+    border-radius: 0.625rem;
+    background: #F0F0F0;
+    float: left;
+    padding: 0.81rem 0.92rem 0 1.22rem;
+    margin-top: 1.64rem;
+}
+
+.username{
+    color: #000;
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.6875rem */
+    letter-spacing: -0.02138rem;
+}
+
+.from-logo{
+    width: 1.3rem;
+    height: auto;
+}
+
+.message-time{
+    color: #888;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: -0.01663rem;
+    
+}
+
+.answer{
+    border-radius: 0.625rem;
+    background: #F0F0F0; 
+    float: right;
+    margin-top: 1.64rem;
+    padding: 0.62rem 1.19rem 0 1.28rem;
+    margin-right: 1rem;
+}
+
+.message-content{
+    margin-left: 1.34rem;
+    padding-top: 0.62rem;
+}
+
+.message-write{
+    display: block;
+    color: #9B9B9B;
+    text-align: left;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.6875rem */
+    letter-spacing: -0.02138rem;
+    border-radius: 0.625rem;
+    border: 1px solid #B2B2B2;
+    background: #FFF;
+    padding: 1.31rem 1.41rem 1.56rem 4rem;
+}
+
+.send-btn{
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 1.44rem;
+    border: none;
+    background: #FFF;
+    background-image: url("./../img/ic_logo-white 1.svg");
+}
+.send-btn:hover{
+    filter: brightness(0.9);
+}

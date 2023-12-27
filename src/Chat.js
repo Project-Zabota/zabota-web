@@ -1,7 +1,7 @@
 import "./css/custom/Chat.css";
 import "./css/bootstrap/bootstrap.css";
 import Navbar from "./componets/Navbar";
-
+/*import telegram_logo from '/src/img/telegram.svg';*/
 
 
 function Chat() {
@@ -12,8 +12,8 @@ function Chat() {
             <div className="col-2"></div>
             <div className="col-7 d-flex flex-column main-content h-100">
                 <div className="chat-container d-flex">
-                    <div className="chat-window">
-                        <div className="chat-wrapper">
+                    <div className="chat-window col-10">
+                        <div className="chat-header">
                             <h2 className="chat-info">Отдел, сотрудник, имя клиента</h2>
                             <div className="chat-value d-flex justify-content-evenly">
                                 <h2 className="request-num">Заявка № 1</h2>
@@ -26,10 +26,37 @@ function Chat() {
                             
                         </div>
                         <div className="chat-content justify-content-center">
-                            <h1>Мой батя ебашит вообще адовые блюда. Ну такой вот примерно рецепт усредненный, потому что вариаций масса. Берется суп, он не греется, греть – это не про моего батю. Он берет это суп, вываливает его на сковороду и начинает жарить. Добавляет в него огромное количество лука, чеснока, перца черного и красного МУКИ! для вязкости, томатная паста сверху. Все это жарится до дыма. Потом снимается с огня и остужается на балконе. Потом батя заносит и щедро полив майонезом начинает есть. При этом ест со сковороды шкрябая по ней ложкой. Ест и приговаривает полушепотом ух бля. При этом у него на лбу аж пот выступает. Любезно мне иногда предлагает, но я отказываюсь. Надо ли говорить о том какой дичайший пердеж потом?
-
-Вонища такая, что обои от стен отклеиваются.</h1> 
+                            <div className="discussion">
+                                <div className="message col-6">
+                                    <div className="user-info d-flex justify-content-between">
+                                        <img className="from-logo" src="#" alt="лого"/>
+                                        <h3 className="username">Черчиль</h3>
+                                        <h4 className="message-time">19:37</h4>
+                                    </div>
+                                    <p className="message-content">Сообщение клиента</p>
+                                </div>
+                                <div className="answer col-6">
+                                    <div className="user-info d-flex justify-content-between">
+                                        <img className="from-logo" src="#" alt="лого"/>
+                                        <h3 className="username">Черчиль</h3>
+                                        <h4 className="message-time">19:37</h4>
+                                    </div>
+                                    <p className="message-content">Сообщение клиента</p>
+                                </div>
+                                <div className="message col-6">
+                                    <div className="user-info d-flex justify-content-between">
+                                        <img className="from-logo" src="#" alt="лого"/>
+                                        <h3 className="username">Черчиль</h3>
+                                        <h4 className="message-time">19:37</h4>
+                                    </div>
+                                    <p className="message-content">Сообщение клиента</p>
+                                </div>
+                            </div> 
                         </div>
+                        <div className="input-block d-flex justify-content-center col-10">
+                            <input className="message-write w-100" type="text" placeholder="Написать сообщение"></input>
+                            <button className="send-btn" type="submit"></button>
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -44,3 +71,4 @@ function Chat() {
 }
 
 export default Chat;
+                                

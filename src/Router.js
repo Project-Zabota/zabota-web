@@ -5,8 +5,8 @@ import Requests from "./Requests";
 const Router = () => (
     <BrowserRouter>
         <Routes>
-            <Route exact path='/' element={<Requests/>}/>
-            <Route path='/request' element={<Chat/>}/>
+            <Route exact path='/requests' element={<Requests/>}/>
+            <Route path='/chat' element={<Chat/>}/>
         </Routes>
     </BrowserRouter>
 )
