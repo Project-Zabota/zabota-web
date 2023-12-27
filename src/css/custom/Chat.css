@@ -10,7 +10,7 @@
 .chat-container{
     border-radius: 0.625rem;
     background: #FFF;
-    margin-top: 2.44rem;
+    margin-top: 1.44rem;
     justify-content: center;
     margin-right: 0.75rem;
     margin-left: 0.75rem;
@@ -74,7 +74,7 @@
 }
 .chat-content{
     overflow-y: scroll;
-    height: 40vh;
+    height: 38vh;
 }
 
 .discussion{
@@ -112,7 +112,6 @@
     font-weight: 400;
     line-height: 150%; /* 1.3125rem */
     letter-spacing: -0.01663rem;
-    
 }
 
 .answer{
@@ -141,17 +140,99 @@
     border-radius: 0.625rem;
     border: 1px solid #B2B2B2;
     background: #FFF;
-    padding: 1.31rem 1.41rem 1.56rem 4rem;
+    padding: 1rem 1.41rem 1rem 4rem;
 }
 
 .send-btn{
     position: absolute;
-    margin-left: 30rem;
-    margin-top: 1.44rem;
+    margin-left: 31rem;
+    margin-top: 1.04rem;
     border: none;
     background: #FFF;
-    background-image: url("../../img/ic_logo-white 1.svg");
 }
-.send-btn:hover{
-    filter: brightness(0.9);
+
+.input-more{
+    display: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.upload-icon{
+    width: 1.875rem;
+    height: auto;
+}
+
+.input-message{
+    margin-bottom: 1rem;
+}
+
+.action-container{
+    border-radius: 0.625rem;
+    background: #FFF;
+    margin-top: 1.44rem;
+    justify-content: center;
+}
+.action-header{
+    margin-top: 1.8rem;
+}
+
+.action-info{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.875rem */
+    letter-spacing: -0.02375rem;
+    padding: 1.7rem 0;
+    border-radius: 0.625rem;
+    background: #004D3A;
+    margin-bottom: 1.62rem;
+}
+
+.action-status{
+    padding: 1rem 0;
+    border-top: 0.06rem solid #999;
+    border-bottom: 0.06rem solid #999;
+}
+
+.request-status{
+    color: #000;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.875rem */
+    letter-spacing: -0.02375rem;
+}
+
+.status-date{
+    color: #888;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: -0.01663rem;
+}
+
+.add-action{
+    display: flex;
+    border-radius: 0.625rem;
+    background: #0D9900;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.6875rem */
+    letter-spacing: -0.02138rem;
+    padding: 0.7rem 1.8rem;
+    margin: 9.68rem auto 2.56rem auto;
+    border: none;
+}
+
+.supp-logo{
+    width: 1.4rem;
+    height: auto;
 }
