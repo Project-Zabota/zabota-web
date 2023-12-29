@@ -3,10 +3,8 @@ import "./css/bootstrap/bootstrap.css";
 import Navbar from "./componets/Navbar";
 import telegram_logo from './img/telegram.svg';
 import send from './img/Send.svg';
-import more from './img/more.png';
 import supp_icon from './img/Support.svg';
 import Notification from "./componets/Notification";
-
 
 function Chat() {
   return (
@@ -14,11 +12,10 @@ function Chat() {
         <div className="row h-100">
             <Navbar />
             <div className="col-2"></div>
-            <div className="col-7 d-flex flex-column main-content h-100">
-                <div className="chat-container d-flex">
+            <div className="col-7 d-flex flex-column main-content h-100 ps-4">
+                <div className="chat-container d-flex ">
                     <div className="chat-window col-10">
                         <div className="chat-header">
-                            <h2 className="chat-info">Отдел, сотрудник, имя клиента</h2>
                             <div className="chat-value d-flex justify-content-evenly">
                                 <h2 className="request-num">Заявка № 1</h2>
                                 <div className="problem-block">
@@ -57,17 +54,15 @@ function Chat() {
                                 </div>
                             </div> 
                         </div>
-                        <div className="input-message d-flex justify-content-center col-10">
+                        <div className="input-message d-flex justify-content-center">
                             <input className="message-write w-100" type="text" placeholder="Написать сообщение"></input>
                             <button className="send-btn" type="submit"><img className="send" src={send}/></button>
                             <input className="input-more" type="file" accept="image/*"></input>
                             
                         </div>
-                        
-                        
                     </div>
                 </div>
-                <div className="fast-nav col-11 d-flex justify-content-between">
+                <div className="fast-nav d-flex justify-content-between">
                     <div className="left-info d-flex">
                         <h2 className="request-num-fast">Заявка № 1</h2>
                         <h4 className="request-status-fast">В работе</h4>
@@ -77,30 +72,25 @@ function Chat() {
             </div>
             <div className="col-3 d-flex flex-column main-content h-100">
                 <div className="action-container d-flex">
-                    <div className="action-window col-9">
+                    <div className="action-window h-100 col-9">
                         <div className="action-header">
                             <h2 className="action-info">История заявки</h2>
-                            <div className="action-status">
-                                <h2 className="request-status">Пришла заявка</h2>
-                                <h4 className="status-date">17.09.2023 00:00</h4>
-                            </div>
-                            <div className="action-status">
-                                <h2 className="request-status">Принята в работу</h2>
-                                <h4 className="status-date">17.09.2023 00:00</h4>
-                            </div>
-                            <button className="add-action">Добавить действие</button>
                         </div>
+                        <div className="action-status">
+                            <h2 className="request-status">Пришла заявка</h2>
+                            <h4 className="status-date">17.09.2023 00:00</h4>
+                        </div>
+                        <div className="action-status">
+                            <h2 className="request-status">Принята в работу</h2>
+                            <h4 className="status-date">17.09.2023 00:00</h4>
+                        </div>
+                        <button className="add-action">Добавить действие</button>
                     </div>
                 </div>
                 <button className="redirection-btn col-9">Перенаправить в другой отдел</button>
             </div>
             
             <Notification />
-            
-                
-                
-              
-            
         </div>
     </div>
   );

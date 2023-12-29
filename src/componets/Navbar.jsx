@@ -9,7 +9,7 @@ import graph from './../img/Graph.svg';
 function Navbar() {
     return (
         <div className="col-2 d-flex flex-column align-items-center px-3 position-fixed vh-100" id="side_nav">
-                <img className="img-fluid mt-2" src={logo} id="logo" alt="Жизнь март"/>
+                <img className="img-fluid mt-5" src={logo} id="logo" alt="Жизнь март"/>
                 <div className="nav-elements w-100 d-flex flex-column">
                     <a href="#" className="nav-item">
                         <img src={message}/>

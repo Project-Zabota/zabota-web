@@ -12,8 +12,6 @@
     background: #FFF;
     margin-top: 1.44rem;
     justify-content: center;
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
 }
 .chat-header{
     margin-top: 1.8rem;
@@ -74,7 +72,7 @@
 }
 .chat-content{
     overflow-y: scroll;
-    height: 38vh;
+    height: 62vh;
 }
 
 .discussion{
@@ -145,8 +143,8 @@
 
 .send-btn{
     position: absolute;
-    margin-left: 31rem;
-    margin-top: 1.04rem;
+    right: 32%;
+    bottom: 15%;
     border: none;
     background: #FFF;
 }
@@ -171,6 +169,7 @@
     background: #FFF;
     margin-top: 1.44rem;
     justify-content: center;
+    min-height: 85.9vh;
 }
 .action-header{
     margin-top: 1.8rem;
@@ -228,7 +227,7 @@
     line-height: 150%; /* 1.6875rem */
     letter-spacing: -0.02138rem;
     padding: 0.7rem 1.8rem;
-    margin: 9.68rem auto 2.56rem auto;
+    margin: 2rem auto 2.56rem auto;
     border: none;
 }
 
@@ -238,7 +237,7 @@
 }
 
 .redirection-btn{
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -255,8 +254,7 @@
 .fast-nav{
     border-radius: 0.625rem;
     background: #FFF;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 1.5rem;
     padding: 0.6rem 1.1rem;
 }
 

@@ -8,36 +8,6 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
-#side_nav{
-    background: #003129;
-}
-
-#logo{
-    width: 9.8rem;
-    height: auto;
-}
-
-.nav-elements{
-    margin-top: 4.6rem;
-}
-
-.nav-item {
-    font-size: 1.1rem;
-    color: #fff;
-    text-decoration: none;
-    width: 100%;
-    display: flex;
-    padding: 1.1rem 1.8rem;
-    border-radius: 0.6rem;
-    margin-bottom: 1rem;
-    gap: 1rem;
-}
-
-.nav-item img {
-    width: 1.2rem;
-    height: auto;
-}
-
 .button {
     padding: 0.87rem 0.26rem 0.94rem 2.12rem;
     border-radius: 0.625rem;
