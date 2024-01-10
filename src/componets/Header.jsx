@@ -7,12 +7,12 @@ function Header() {
         <div className="header-container">
             <div className="col-10 d-flex justify-content-between header-content">
                 <h2 id="tag">Заявки</h2>
-                <a href="#" className="button">
-                    <div className="btn-content d-flex justify-content-center">
-                        <img className="add-img" src={add_img}/>
-                        Добавить заявку
-                    </div>
-                </a>
+                {/*<a href="#" className="button">*/}
+                {/*    <div className="btn-content d-flex justify-content-center">*/}
+                {/*        <img className="add-img" src={add_img}/>*/}
+                {/*        Добавить заявку*/}
+                {/*    </div>*/}
+                {/*</a>*/}
             </div>
         </div>
     )
